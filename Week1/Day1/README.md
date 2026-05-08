@@ -117,9 +117,9 @@ Account Object
 
 ## Difference between Salesforce Admin and Developer
 
-## Salesforce Admin
+-## Salesforce Admin
 An Admin manages users, settings, and automation.
-## Salesforce Developer
+-## Salesforce Developer
 A Developer creates applications and writes code. 
 
 ---
@@ -151,10 +151,10 @@ Lead → Contact → Opportunity → Customer
 
 ## Task 2: Real-Life Mapping – Hospital Management System
 
- Account = Hospital or Medical Organization 
- Contact = Patient or Doctor 
- Lead = Person interested in taking treatment or consultation 
- Opportunity = Chance of confirming treatment, appointment, or hospital service  
+ -Account = Hospital or Medical Organization 
+ -Contact = Patient or Doctor 
+ -Lead = Person interested in taking treatment or consultation 
+ -Opportunity = Chance of confirming treatment, appointment, or hospital service  
 
 ---
 ## Trailhead Work Completed
