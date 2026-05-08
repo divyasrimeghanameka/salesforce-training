@@ -5,7 +5,7 @@
 - CRM Concepts
 - Trailhead Playground
 - Account, Contact, Opportunity
-- 
+
 ## What is Salesforce?
 
 Salesforce is a cloud-based CRM platform used to manage customers, sales, service, and marketing in one place.
@@ -117,9 +117,10 @@ Account Object
 
 ## Difference between Salesforce Admin and Developer
 
-| Salesforce Admin | Salesforce Developer |
-|------------------|----------------------|
-| An Admin manages users, settings, and automation. | A Developer creates applications and writes code. |
+## Salesforce Admin
+An Admin manages users, settings, and automation.
+## Salesforce Developer
+A Developer creates applications and writes code. 
 
 ---
 
@@ -135,7 +136,7 @@ Hospital Management System can be built using Salesforce to manage:
 
 ---
 
-# Core Task (MANDATORY)
+# Core Task 
 
 ## Task 1: Understand Business Flow
 
@@ -150,11 +151,15 @@ Lead → Contact → Opportunity → Customer
 
 ## Task 2: Real-Life Mapping – Hospital Management System
 
-| Salesforce Term | Real-Life Mapping |
-|-----------------|------------------|
-| Account | Hospital or Medical Organization |
-| Contact | Patient or Doctor |
-| Lead | Person interested in taking treatment or consultation |
-| Opportunity | Chance of patient confirming treatment, appointment, or hospital service usage |
+ Account = Hospital or Medical Organization 
+ Contact = Patient or Doctor 
+ Lead = Person interested in taking treatment or consultation 
+ Opportunity = Chance of confirming treatment, appointment, or hospital service  
 
 ---
+## Trailhead Work Completed
+
+- Salesforce Values: Quick Look
+- Salesforce Developer: Quick Look
+- Salesforce CRM Module
+- Trailhead Playground Setup
