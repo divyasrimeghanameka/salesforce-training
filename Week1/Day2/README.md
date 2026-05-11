@@ -70,24 +70,20 @@ Used when advanced or complex business logic is required.
 # Real-Time System Example: College Admission Management
 
 ## App Name
-**College Admission App**
-
----
+Hospital Management App
 
 ## Main Objects
-- Student
-- Admission
-- Department
-- Faculty
-
----
+- Patient  
+- Appointment  
+- Doctor  
+- Billing  
 
 ## User Activities
 Users can:
-- Add student information
-- Monitor admission processes
-- Manage department details
-- Maintain faculty records
+- Add patient information  
+- Schedule appointments  
+- Manage doctor details  
+- Maintain billing records
 
 ---
 
