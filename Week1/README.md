@@ -36,6 +36,28 @@ Week 1 focuses on Salesforce basics, CRM concepts, Trailhead learning, and under
 
 ---
 
+## Day 3
+- Data Modeling Basics
+- Standard Objects vs Custom Objects
+- Records and Fields
+- Lookup Relationships
+- Formula Fields
+- Validation Rules
+- Business Logic in Salesforce
+- College Management System Data Model
+
+### ✅ Practical Work
+- Created Formula Fields
+- Created Validation Rules
+- Built Object Relationships
+- Designed College Management System Structure
+
+### ✅ Modules Completed
+- Data Modeling
+- Formulas and Validations
+
+---
+
 # 🗂️ Folder Structure
 
 ```text
@@ -47,7 +69,10 @@ Week1
 │   ├── README.md
 │   └── Screenshots
 ├── Day3
+│   ├── README.md
+│   └── Screenshots
 ├── Day4
 ├── Day5
 ├── Day6
 └── README.md
+```
