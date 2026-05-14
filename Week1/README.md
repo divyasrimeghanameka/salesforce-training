@@ -118,7 +118,7 @@ Week 1 focuses on Salesforce basics, CRM concepts, Trailhead learning, and under
 
 ---
 
-## Day 7
+## Day 6(Light Completion Sprint)
 ### Topics Covered
 - Search Solution Basics  
 - Platform Events in Salesforce  
@@ -138,3 +138,26 @@ Week 1 focuses on Salesforce basics, CRM concepts, Trailhead learning, and under
 ---
 
 ## 🗂️ Folder Structure
+Week1
+├── Day1
+│   ├── README.md
+│   └── Screenshots
+├── Day2
+│   ├── README.md
+│   └── Screenshots
+├── Day3
+│   ├── README.md
+│   └── Screenshots
+├── Day4
+│   ├── README.md
+│   └── Screenshots
+├── Day5
+│   ├── README.md
+│   └── Screenshots
+├── Day6
+│   ├── README.md
+│   └── Screenshots
+├── Day6(Light Completion Sprint)
+│   ├── README.md
+│   └── Screenshots
+└── README.md
