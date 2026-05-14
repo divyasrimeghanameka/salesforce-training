@@ -1,79 +1,138 @@
-🚀 Week 1 - Salesforce Foundations  
+🚀 Week 1 - Salesforce Foundations
 
 📌 About  
 Week 1 focuses on Salesforce basics, CRM concepts, Trailhead learning, and understanding core business workflow.
 
----
+📚 Day-wise Progress
 
-# 📚 Day-wise Progress
-
-## Day 1
-- Salesforce basics  
-- CRM concepts  
-- Trailhead Playground  
-- Account, Contact, Opportunity  
+Day 1  
+Salesforce basics  
+CRM concepts  
+Trailhead Playground  
+Account, Contact, Opportunity  
 
 ✅ Modules Completed
-- Salesforce Values Quick Look  
-- Salesforce Developer Quick Look  
-- Salesforce CRM  
-- Trailhead Playground Management  
+
+Salesforce Values Quick Look  
+Salesforce Developer Quick Look  
+Salesforce CRM  
+Trailhead Playground Management  
 
 ---
 
-## Day 2
-- Salesforce Platform Basics  
-- Apps, Objects, and Tabs  
-- CRM and Platform Connection  
-- Configuration vs Coding  
-- Apex Introduction  
-- Real-Time System Design  
-- College Admission App Example  
+Day 2  
+Salesforce Platform Basics  
+Apps, Objects, and Tabs  
+CRM and Platform Connection  
+Configuration vs Coding  
+Apex Introduction  
+Real-Time System Design  
+College Admission App Example  
 
 ✅ Modules Completed
-- Agentforce 360 Platform Basics  
-- Agentforce 360 Platform Development Basics  
+
+Agentforce 360 Platform Basics  
+Agentforce 360 Platform Development Basics  
 
 ---
 
-## Day 3
-- Data Modeling Basics  
-- Standard Objects vs Custom Objects  
-- Records and Fields  
-- Lookup Relationships  
-- Formula Fields  
-- Validation Rules  
-- Business Logic in Salesforce  
-- College Management System Data Model   
+Day 3  
+Data Modeling Basics  
+Standard Objects vs Custom Objects  
+Records and Fields  
+Lookup Relationships  
+Formula Fields  
+Validation Rules  
+Business Logic in Salesforce  
+College Management System Data Model  
 
 ✅ Modules Completed
-- Data Modeling  
-- Formulas and Validations  
+
+Data Modeling  
+Formulas and Validations  
 
 ---
 
-## Day 4
-- Flow Builder Introduction  
-- Types of Flows in Salesforce  
-- Screen Flow  
-- Record-Triggered Flow  
-- Flow Elements and Logic  
-- Business Process Automation  
-- Automation in College Management System  
-- Auto Email Notifications  
-- Student ID Automation  
-- Fee Reminder Automation  
-- Workflow Optimization Using Flows  
+Day 4  
+Flow Builder Introduction  
+Types of Flows in Salesforce  
+Screen Flow  
+Record-Triggered Flow  
+Flow Elements and Logic  
+Business Process Automation  
+Automation in College Management System  
+Auto Email Notifications  
+Student ID Automation  
+Fee Reminder Automation  
+Workflow Optimization Using Flows  
 
 ✅ Modules Completed
-- Flow Builder Basics  
-- Data and Actions in Flows  
+
+Flow Builder Basics  
+Data and Actions in Flows  
 
 ---
 
-# 🗂️ Folder Structure
+Day 5  
+What is Apex  
+Need for Apex in Salesforce  
+Flow vs Apex  
+Configuration vs Coding  
+Real-Time Apex Use Cases  
+College Management System Example  
+Objects and Relationships  
+Validation Rules  
+Flow Automation Examples  
+Apex Business Logic  
+Pseudocode Basics  
+Automation Design Thinking  
 
-```text
+✅ Modules Completed
+
+Apex & .NET Basics  
+Apex Basics and Database  
+
+---
+
+Day 6  
+SOQL Introduction  
+Apex Triggers  
+Flow vs Trigger  
+Before Trigger vs After Trigger  
+Trigger Use Cases  
+Database Query Thinking  
+Enterprise Automation Concepts  
+Polling vs Event-Driven Systems  
+Query Practice and Trigger Design  
+
+✅ Modules Completed
+
+Apex Triggers  
+Database & .NET Basics  
+
+---
+
+Day 6(Light Completion Sprint)  
+Search Solution Basics  
+Platform Events in Salesforce  
+Event-Driven Architecture  
+Salesforce CLI Introduction  
+CLI Commands and Automation  
+Enterprise Search Systems  
+Platform Event Workflow  
+Developer Productivity Using CLI  
+Real-Time Notification Systems  
+
+✅ Modules Completed
+
+Search Solution Basics  
+Agentforce 360 Platform Events Basics  
+Command-Line Interface (CLI)  
+
+---
+
+🗂️ Folder Structure
+
 Week1
 ├── Day1
 │   ├── README.md
@@ -88,6 +147,12 @@ Week1
 │   ├── README.md
 │   └── Screenshots
 ├── Day5
+│   ├── README.md
+│   └── Screenshots
 ├── Day6
+│   ├── README.md
+│   └── Screenshots
+├── Day6 (Light Completion Sprint)
+│   ├── README.md
+│   └── Screenshots
 └── README.md
-```
