@@ -119,11 +119,8 @@ IF marks >= 90 THEN provide scholarship discount
 
 ---
 
-# Learning Outcome
-After completing this topic, you can understand:
+# Modules Completed
 
-- Introduction to Apex
-- Why Apex is important in Salesforce
-- Difference between Flow and Apex
-- Configuration vs coding concepts
-- Real-time use cases of Apex in applications
+- Apex & .NET Basics
+
+- 2. Apex Basics and Database
