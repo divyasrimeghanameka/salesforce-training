@@ -1,4 +1,4 @@
-# Salesforce Summer Program – Quick Completion Sprint
+# Day-6  (Quick Completion Sprint)
 
 ## Modules Completed
 - Search Solution Fundamentals
