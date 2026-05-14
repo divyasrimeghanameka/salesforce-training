@@ -122,5 +122,4 @@ IF marks >= 90 THEN provide scholarship discount
 # Modules Completed
 
 - Apex & .NET Basics
-
-- 2. Apex Basics and Database
+- Apex Basics and Database
