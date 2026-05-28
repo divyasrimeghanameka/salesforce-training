@@ -1,4 +1,4 @@
-# Day 8 - Lightning Web Components (LWC)
+# Day 1 - Lightning Web Components (LWC)
 
 ## What is LWC?
 Lightning Web Components (LWC) is Salesforce’s modern framework for building dynamic and reusable user interface components for enterprise applications.
