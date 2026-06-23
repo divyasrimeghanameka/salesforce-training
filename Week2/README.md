@@ -53,7 +53,7 @@
 ## 🗂️ Folder Structure
 
 ```text
-Week1
+Week2
 ├── Day1
 │   ├── README.md
 │   └── Screenshots
