@@ -1,4 +1,4 @@
-# Day 16 - Debugging, Performance and Maintainable Architecture
+# Day 2 - Debugging, Performance and Maintainable Architecture
 
 ## Common Bug Scenarios
 
