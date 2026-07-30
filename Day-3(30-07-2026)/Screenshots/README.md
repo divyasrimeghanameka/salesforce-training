@@ -126,7 +126,6 @@ The Record-Triggered Flow performs the following tasks:
 - Creates an Offer Letter record when the student's status becomes **Selected**.
 - Successfully completes the automation process.
 
-> **Note:** Add screenshots of your Flow Canvas, Start Element, Assignment Element, Email Action, and Successful Execution in your GitHub repository.
 
 ---
 
