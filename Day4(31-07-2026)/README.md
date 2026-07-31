@@ -1,5 +1,5 @@
 # 🚀 Salesforce Interview Readiness Bootcamp – Day 4
-## Your First Lightning Web Component (LWC)
+
 
 ---
 
