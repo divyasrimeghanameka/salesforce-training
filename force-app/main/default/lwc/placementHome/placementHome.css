@@ -1,0 +1,52 @@
+.dashboard {
+    padding: 20px;
+    background: #f8f9fa;
+}
+
+.heading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #16325c;
+}
+
+.subHeading {
+    text-align: center;
+    font-size: 16px;
+    color: #54698d;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.date {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.info-card {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #d8dde6;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-4px);
+}
+
+.info-card h2 {
+    font-size: 18px;
+    color: #16325c;
+    margin-bottom: 10px;
+}
+
+.info-card p {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0070d2;
+}
