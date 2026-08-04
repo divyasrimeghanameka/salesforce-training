@@ -1,4 +1,4 @@
-# Enterprise Triggers That Stay Clean
+# Day-6: Enterprise Triggers That Stay Clean
 
 ## Overview
 
