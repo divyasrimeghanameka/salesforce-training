@@ -1,0 +1,34 @@
+<template>
+
+    <lightning-card title="Student Placement Portal">
+
+        <div class="slds-p-around_medium">
+
+            <c-student-summary
+                record-id={recordId}
+                refresh-key={refreshKey}>
+            </c-student-summary>
+
+            <div class="slds-m-top_large">
+
+                <c-student-profile
+                    record-id={recordId}
+                    onprofileupdated={handleProfileUpdated}>
+                </c-student-profile>
+
+            </div>
+
+            <div class="slds-m-top_large">
+
+                <c-eligible-jobs
+                    record-id={recordId}
+                    refresh-key={refreshKey}>
+                </c-eligible-jobs>
+
+            </div>
+
+        </div>
+
+    </lightning-card>
+
+</template>

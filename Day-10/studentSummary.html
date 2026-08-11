@@ -1,0 +1,237 @@
+<template>
+    <lightning-card
+        title="Student Summary"
+        icon-name="standard:contact">
+
+        <div class="slds-p-around_medium">
+
+            <!-- Loading -->
+            <template if:true={isLoading}>
+                <div class="slds-align_absolute-center slds-p-around_large">
+                    <lightning-spinner
+                        alternative-text="Loading student information">
+                    </lightning-spinner>
+                    <span class="slds-m-left_small">
+                        Loading student information...
+                    </span>
+                </div>
+            </template>
+
+
+            <!-- Student Details -->
+            <template if:true={hasData}>
+
+                <!-- Student Header -->
+                <div class="slds-box slds-theme_shade slds-m-bottom_medium">
+
+                    <div class="slds-grid slds-grid_align-spread slds-grid_vertical-align-center">
+
+                        <div>
+                            <h2 class="slds-text-heading_medium">
+                                {studentName}
+                            </h2>
+
+                            <p class="slds-text-color_weak slds-m-top_x-small">
+                                Student Placement Profile
+                            </p>
+                        </div>
+
+                        <lightning-icon
+                            icon-name="standard:contact"
+                            size="medium">
+                        </lightning-icon>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Information Cards -->
+                <div class="slds-grid slds-wrap">
+
+                    <!-- Email -->
+                    <div class="slds-col slds-size_1-of-2 slds-p-around_x-small">
+
+                        <div class="slds-box">
+
+                            <div class="slds-grid slds-grid_vertical-align-center">
+
+                                <lightning-icon
+                                    icon-name="utility:email"
+                                    size="small">
+                                </lightning-icon>
+
+                                <div class="slds-m-left_small">
+
+                                    <p class="slds-text-title">
+                                        Email
+                                    </p>
+
+                                    <p class="slds-text-body_regular slds-m-top_x-small">
+                                        {email}
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Branch -->
+                    <div class="slds-col slds-size_1-of-2 slds-p-around_x-small">
+
+                        <div class="slds-box">
+
+                            <div class="slds-grid slds-grid_vertical-align-center">
+
+                                <lightning-icon
+                                    icon-name="utility:education"
+                                    size="small">
+                                </lightning-icon>
+
+                                <div class="slds-m-left_small">
+
+                                    <p class="slds-text-title">
+                                        Branch
+                                    </p>
+
+                                    <p class="slds-text-body_regular slds-m-top_x-small">
+                                        {branch}
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CGPA -->
+                    <div class="slds-col slds-size_1-of-2 slds-p-around_x-small">
+
+                        <div class="slds-box">
+
+                            <div class="slds-grid slds-grid_vertical-align-center">
+
+                                <lightning-icon
+                                    icon-name="utility:metrics"
+                                    size="small">
+                                </lightning-icon>
+
+                                <div class="slds-m-left_small">
+
+                                    <p class="slds-text-title">
+                                        CGPA
+                                    </p>
+
+                                    <p class="slds-text-heading_small slds-m-top_x-small">
+                                        {cgpa}
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Active Backlogs -->
+                    <div class="slds-col slds-size_1-of-2 slds-p-around_x-small">
+
+                        <div class="slds-box">
+
+                            <div class="slds-grid slds-grid_vertical-align-center">
+
+                                <lightning-icon
+                                    icon-name="utility:warning"
+                                    size="small">
+                                </lightning-icon>
+
+                                <div class="slds-m-left_small">
+
+                                    <p class="slds-text-title">
+                                        Active Backlogs
+                                    </p>
+
+                                    <p class="slds-text-heading_small slds-m-top_x-small">
+                                        {backlogs}
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Placement Status -->
+                    <div class="slds-col slds-size_1-of-1 slds-p-around_x-small">
+
+                        <div class="slds-box slds-theme_shade">
+
+                            <div class="slds-grid slds-grid_vertical-align-center">
+
+                                <lightning-icon
+                                    icon-name="utility:success"
+                                    size="small">
+                                </lightning-icon>
+
+                                <div class="slds-m-left_small">
+
+                                    <p class="slds-text-title">
+                                        Placement Status
+                                    </p>
+
+                                    <p class="slds-text-heading_small slds-m-top_x-small">
+                                        {placementStatus}
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </template>
+
+
+            <!-- Error -->
+            <template if:true={hasError}>
+
+                <div class="slds-box slds-theme_error slds-m-top_medium">
+
+                    <div class="slds-grid slds-grid_vertical-align-center">
+
+                        <lightning-icon
+                            icon-name="utility:error"
+                            variant="inverse"
+                            size="small">
+                        </lightning-icon>
+
+                        <p class="slds-m-left_small">
+                            Unable to load student information.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </template>
+
+        </div>
+
+    </lightning-card>
+</template>
