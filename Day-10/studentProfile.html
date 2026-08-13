@@ -1,0 +1,79 @@
+<template>
+
+    <lightning-card
+        title="Student Profile"
+        icon-name="standard:contact">
+
+        <div class="slds-p-around_medium">
+
+            <lightning-record-edit-form
+                object-api-name={objectApiName}
+                record-id={recordId}
+                onsuccess={handleSuccess}
+                onerror={handleError}
+                onsubmit={handleSubmit}>
+
+                <lightning-messages></lightning-messages>
+
+                <lightning-input-field
+                    field-name={fields.name}
+                    required>
+                </lightning-input-field>
+
+                <lightning-input-field
+                    field-name={fields.phone}
+                    required>
+                </lightning-input-field>
+
+                <lightning-input-field
+                    field-name={fields.email}
+                    required>
+                </lightning-input-field>
+
+                <lightning-input-field
+                    field-name={fields.branch}
+                    required>
+                </lightning-input-field>
+
+                <lightning-input-field
+                    field-name={fields.cgpa}
+                    required>
+                </lightning-input-field>
+
+                <lightning-input-field
+                    field-name={fields.skills}>
+                </lightning-input-field>
+
+                <lightning-input-field
+                    field-name={fields.location}>
+                </lightning-input-field>
+
+                <div class="slds-m-top_medium">
+
+                    <lightning-button
+                        type="submit"
+                        label="Save"
+                        variant="brand">
+                    </lightning-button>
+
+                </div>
+
+            </lightning-record-edit-form>
+
+            <template if:true={showSuccess}>
+                <div class="slds-m-top_medium slds-text-color_success">
+                    ✓ Profile updated successfully.
+                </div>
+            </template>
+
+            <template if:true={errorMessage}>
+                <div class="slds-m-top_medium slds-text-color_error">
+                    {errorMessage}
+                </div>
+            </template>
+
+        </div>
+
+    </lightning-card>
+
+</template>
